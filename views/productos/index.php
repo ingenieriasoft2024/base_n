@@ -21,4 +21,5 @@
     </form>
 </div>
 <?php var_dump($productos) ?>
+
 <script src="<?= asset('./build/js/producto/index.js') ?>"></script>

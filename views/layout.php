@@ -28,6 +28,9 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/ejemplo/"><i class="bi bi-house-fill me-2"></i>Inicio</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/base_n/productos"><i class="bi me-2"></i>Productos</a>
+                    </li>
 
                     <div class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
@@ -60,7 +63,11 @@
     </div>
     <div class="container-fluid pt-5 mb-4" style="min-height: 85vh">
 
-        <?php echo $contenido; ?>
+        <?php echo $contenido; 
+        echo asset('build/js/app.js');
+
+        ?>
+        
     </div>
     <div class="container-fluid ">
         <div class="row justify-content-center text-center">

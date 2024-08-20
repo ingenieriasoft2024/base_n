@@ -10,7 +10,7 @@ $router = new Router();
 $router->setBaseURL('/' . $_ENV['APP_NAME']);
 
 $router->get('/', [AppController::class, 'index']);
-$router->get('/producto', [ProductoController::class, 'index']);
+$router->get('/productos', [ProductoController::class, 'index']);
 $router->get('/API/producto/buscar', [ProductoController::class, 'buscarAPI']);
 $router->post('/API/producto/guardar', [ProductoController::class, 'guardarAPI']);
 
